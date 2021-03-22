@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 20%;
+    grid-gap: 10px;
+}
+.grid-container > div {
+        border: 2px solid rgb(0, 0, 0);
+        font-size: 20px;
+        
+        background-color: rgb(216, 211, 186);
+}
+body{
+    background-color: aquamarine;
+}
+#topic
+{
+    grid-column: 1 / span 3;
+}
+#comment1
+{
+    grid-column: 1 / span 3;
+}
+#comment2
+{
+    grid-column: 1 / span 3;
+}
